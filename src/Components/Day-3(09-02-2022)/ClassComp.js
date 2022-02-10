@@ -15,8 +15,12 @@ class ClassComp extends React.Component {
       <div>
         This is Class Component
         <br />
-        {this.state.cond && <h1>Satisfied</h1>}
-        {this.state.cond ? <h1>Condition Satisfied</h1> : <h1>Failed</h1>}
+        {this.state.cond && <h1>Condition Satisfied</h1>}
+        {this.state.cond ? (
+          <h1>Condition Satisfied</h1>
+        ) : (
+          <h1>Condition Failed</h1>
+        )}
         <button onClick={this.toggle}>Toggle</button>
       </div>
     );
