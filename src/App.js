@@ -1,12 +1,10 @@
 import React from "react";
-import ClassComp from "./Components/Day-3(09-02-2022)/ClassComp";
-import FunctionalComp from "./Components/Day-3(09-02-2022)/FunctionalComp";
+import Form from "./Assignments/Ass-2/Form";
 
 const App = () => {
   return (
     <div>
-      <FunctionalComp />
-      <ClassComp />
+      <Form />
     </div>
   );
 };
