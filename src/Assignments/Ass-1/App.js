@@ -12,27 +12,13 @@ class App extends React.Component {
       isClass: true,
     };
   }
-  functional = () => {
-    this.setState({
-      isFunctional: !this.state.isFunctional,
-    });
-  };
-  class = () => {
-    this.setState({
-      isClass: !this.state.isClass,
-    });
-  };
 
   render() {
     return (
       <div className="App">
         <h1>Styling Using Functional and Class Component</h1>
-        <button onClick={this.functional}>
-          To see styling in Functional Component
-        </button>
-        <button onClick={this.class}>
-          To see styling in Functional Component
-        </button>
+        <button onClick={()=>this.setState({ isFunctional:!this.state.isFunctional })}> To see styling in Functional Component </button>
+        <button onClick={()=>this.setState({ isClass: !this.state.isClass })}> To see styling in Class Component </button>
         {this.state.isFunctional && <FunctionalComp />}
         {this.state.isClass ? <ClassComp /> : null}
       </div>
