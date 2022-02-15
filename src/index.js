@@ -5,7 +5,15 @@ import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-      <App />
+    {/* <div
+      style={{
+        background: "linear-gradient(aqua, hotpink, rgb(236, 91, 91)",
+        minHeight: "100vh",
+        marginTop: "-1.8%",
+      }}
+    > */}
+    <App />
+    {/* </div> */}
   </React.StrictMode>,
   document.getElementById("root")
 );

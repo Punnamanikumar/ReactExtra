@@ -1,12 +1,13 @@
 import React from "react";
-import ClassComp from "./Components/Day-3(09-02-2022)/ClassComp";
-import FunctionalComp from "./Components/Day-3(09-02-2022)/FunctionalComp";
+import FormHandling from "./Components/Day-4(10-02-2022)/FormHandling";
+import Parent from "./Components/Day-4(10-02-2022)/Props/Parent";
 
 const App = () => {
   return (
     <div>
-      <FunctionalComp />
-      <ClassComp />
+      <FormHandling />
+      <br />
+      <Parent />
     </div>
   );
 };
