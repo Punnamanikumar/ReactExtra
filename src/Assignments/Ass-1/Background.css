@@ -1,6 +1,6 @@
 body{
     background: linear-gradient(rgb(128, 128, 233) ,rgb(238, 181, 74),white);
-    min-height: 96.5vh;
+    min-height: 96.3vh;
 }
 button{
     background-color: aqua;
@@ -10,7 +10,7 @@ button{
     margin-right: 13%;
     margin-left: 13%;
     margin-top: 2%;
-    zoom: 125%;
+    zoom: 120%;
 }
 .func{
     background-color: aqua;
@@ -27,8 +27,8 @@ button{
     border: 2px solid black;
     border-radius: 12px;
     position: absolute;
-    left: 65%;
-    top:45.2%
+    left: 62%;
+    top:47.2%
 }
 .external{
     color: brown;
